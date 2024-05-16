@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+
+/*Theme Colors*/
+
+
+/*bootstrap Color*/
+
+
+/*Light colors*/
+
+
+/*Normal Color*/
+
+
+/*Extra Variable*/
+
+
+/*Preloader*/
+
+.preloader {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: fixed;
+    z-index: 99999;
+    background: rgba(253, 253, 253, 0);
+}
+
+.preloader .cssload-speeding-wheel {
+    position: absolute;
+    top: calc(50% - 3.5px);
+    left: calc(50% - 3.5px);
+}
+
+
+/*******************
+/*Top bar
+*******************/
+
+.topbar {
+    background: #ee4e4e;
+}
+
+.topbar .navbar-header {
+    background: #ee4e4e;
+}
+
+.topbar .top-navbar .navbar-header .navbar-brand .light-logo {
+    display: none;
+    color: rgba(255, 255, 255, 0);
+}
+
+.topbar .navbar-light .navbar-nav .nav-item>a.nav-link {
+    color: #000000 !important;
+}
+
+.topbar .navbar-light .navbar-nav .nav-item>a.nav-link:hover,
+.topbar .navbar-light .navbar-nav .nav-item>a.nav-link:focus {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+
+/*******************
+/*General Elements
+*******************/
+
+a.link:hover,
+a.link:focus {
+    color: #ee4e4e !important;
+}
+
+.bg-theme {
+    background-color: #ee4e4e !important;
+}
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
+    background-color: #ee4e4e;
+    border-color: #ee4e4e;
+}
+
+.right-sidebar .rpanel-title {
+    background: #ee4e4e;
+}
+
+.stylish-table tbody tr:hover,
+.stylish-table tbody tr.active {
+    border-left: 4px solid #ee4e4e;
+}
+
+.text-themecolor {
+    color: #ee4e4e !important;
+}
+
+.profile-tab li a.nav-link.active,
+.customtab li a.nav-link.active {
+    border-bottom: 2px solid #ee4e4e;
+    color: #ee4e4e;
+}
+
+.profile-tab li a.nav-link:hover,
+.customtab li a.nav-link:hover {
+    color: #ee4e4e;
+}
+
+
+/*******************
+/*Buttons
+*******************/
+
+.btn-themecolor,
+.btn-themecolor.disabled {
+    background: #ee4e4e;
+    color: #ffffff;
+    border: 5px solid #ee4e4e;
+}
+
+.btn-themecolor:hover,
+.btn-themecolor.disabled:hover {
+    background: #ee4e4e;
+    opacity: 3.7;
+    border: 1px solid #ee4e4e;
+}
+
+.btn-themecolor.active,
+.btn-themecolor:focus,
+.btn-themecolor.disabled.active,
+.btn-themecolor.disabled:focus {
+    background: #ee4e4e;
+}
+
+
+/*******************
+/*sidebar navigation
+*******************/
+
+.label-themecolor {
+    background: #2acdb4;
+}
+
+.sidebar-nav>ul>li.active>a {
+    color: #2acdb4;
+    border-color: #2acdb4;
+}
+
+.sidebar-nav>ul>li.active>a i {
+    color: #2acdb4;
+}
+
+.sidebar-nav ul li a.active,
+.sidebar-nav ul li a:hover {
+    color: hsl(0, 86%, 61%);
+}
+
+.sidebar-nav ul li a.active i,
+.sidebar-nav ul li a:hover i {
+    color: #2acdb4;
+}
