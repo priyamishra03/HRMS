@@ -100,12 +100,6 @@
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
-                                        <!--<tfoot>
-                                            <tr>
-                                                <th>Department Name</th>
-                                                <th>Action</th>
-                                            </tr>
-                                        </tfoot>-->
                                         
                                         <tbody>
                                             <?php foreach ($department as $value) { ?>
